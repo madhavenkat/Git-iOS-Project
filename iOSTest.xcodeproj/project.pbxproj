@@ -14,6 +14,7 @@
 		82D4C3BB1AD35ED7005358AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C3BA1AD35ED7005358AA /* Images.xcassets */; };
 		82D4C3BE1AD35ED7005358AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C3BC1AD35ED7005358AA /* LaunchScreen.xib */; };
 		82D4C3CA1AD35ED7005358AA /* iOSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D4C3C91AD35ED7005358AA /* iOSTestTests.m */; };
+		82D4C3D51AD360BC005358AA /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D4C3D41AD360BC005358AA /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		82D4C3C31AD35ED7005358AA /* iOSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D4C3C81AD35ED7005358AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82D4C3C91AD35ED7005358AA /* iOSTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTestTests.m; sourceTree = "<group>"; };
+		82D4C3D31AD360BC005358AA /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		82D4C3D41AD360BC005358AA /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		82D4C3A11AD35ED7005358AA = {
 			isa = PBXGroup;
 			children = (
+				82D4C3D31AD360BC005358AA /* Test.h */,
+				82D4C3D41AD360BC005358AA /* Test.m */,
 				82D4C3AC1AD35ED7005358AA /* iOSTest */,
 				82D4C3C61AD35ED7005358AA /* iOSTestTests */,
 				82D4C3AB1AD35ED7005358AA /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82D4C3B61AD35ED7005358AA /* ViewController.m in Sources */,
+				82D4C3D51AD360BC005358AA /* Test.m in Sources */,
 				82D4C3B31AD35ED7005358AA /* AppDelegate.m in Sources */,
 				82D4C3B01AD35ED7005358AA /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				82D4C3CF1AD35ED7005358AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82D4C3D01AD35ED7005358AA /* Build configuration list for PBXNativeTarget "iOSTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				82D4C3D21AD35ED7005358AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
